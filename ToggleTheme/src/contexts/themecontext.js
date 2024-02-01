@@ -4,7 +4,7 @@ export const themeContext = createContext({
   lightToggle: () => {},
   darkToggle: () => {},
 });
-export const themeProvider = themeContext.Provider;
+export const ThemeProvider = themeContext.Provider;
 export default function useTheme() {
   return useContext(themeContext);
 }
