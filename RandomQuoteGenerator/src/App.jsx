@@ -37,7 +37,7 @@ const App = () => {
       <div className="max-w-md p-8 bg-opacity-80 backdrop-blur-xl rounded-md overflow-hidden transition-all duration-300 ease-in-out border-2 border-white border-opacity-20">
         <h1 className="text-4xl font-bold text-white mb-6">Quotes</h1>
         <button
-          className="bg-white text-blue-500 px-4 py-2 rounded-md mb-4 hover:bg-transparent hover:border border-white hover:text-white transition-all duration-300 ease-in-out"
+          className="bg-white text-blue-500 px-4 py-2 rounded-md mb-4 hover:bg-transparent hover:border border-white hover:tex transition-all duration-300 ease-in-out"
           onClick={fetchData}
         >
           Generate Quote
